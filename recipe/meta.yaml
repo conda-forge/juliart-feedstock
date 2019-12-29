@@ -1,5 +1,5 @@
 {% set name = "juliart" %}
-{% set version = "0.0.13" %}
+{% set version = "0.0.15" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b9bbfe8debbd9dd2c14b7f7ce3b27f94c696a21ee82a0cbbe0c62c7659b7749a
+  sha256: 02330c35bfdd5b192fb476e877d737bb166eb4692afb72e4fc391dc02bdb0f41
 
 build:
   number: 0
