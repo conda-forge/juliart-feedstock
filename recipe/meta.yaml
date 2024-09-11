@@ -10,7 +10,7 @@ source:
   sha256: 9a9c071ed9a8b65aeff80adabe1c61884b025af126a9997b7dacfd4f96dd10de
 
 build:
-  number: 6
+  number: 7
   entry_points:
     - juliart=juliart.client:main
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
