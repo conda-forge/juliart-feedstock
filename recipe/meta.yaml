@@ -6,11 +6,11 @@ package:
   version: "{{ version }}"
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 9a9c071ed9a8b65aeff80adabe1c61884b025af126a9997b7dacfd4f96dd10de
 
 build:
-  number: 7
+  number: 8
   entry_points:
     - juliart=juliart.client:main
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
